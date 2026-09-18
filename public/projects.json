@@ -1,0 +1,272 @@
+[
+  {
+    "id": "1",
+    "title": "Transwestern",
+    "name": "Transwestern",
+    "description": "Transwestern is a comprehensive commercial real estate platform designed to help clients, investors, and partners explore and manage commercial real estate opportunities. The website presents the company’s vertically integrated expertise across Investments, Development, and Services, while providing access to properties, people, market reports, news, and industry insights.\n\nThe platform allows users to explore commercial properties, discover real estate professionals, access market research and reports, and stay updated with the latest industry publications. It also highlights Transwestern’s services and development and investment capabilities through a structured, professional, and user-focused digital experience.",
+    "live": "https://transwestern.com/",
+    "github": "",
+    "stacks": [
+      "Next.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "FastAPI",
+      "API Integration",
+      "Responsive Web Design",
+      "SEO",
+      "Performance Optimization"
+    ],
+    "images": [
+      "https://i.ibb.co.com/Dy7C7v8/image.png"
+    ],
+    "category": "Web Development",
+    "features": [
+      {
+        "title": "Core Features",
+        "points": [
+          "Property Search & Filtering",
+          "People Directory & Professional Profiles",
+          "Market Reports & Research Access",
+          "Investments, Development & Services Portfolio",
+          "News, Insights & Industry Publications"
+        ]
+      }
+    ],
+    "challenges": "Delivering a fast, seamless experience across complex real estate datasets, property search filters, and market reports while maintaining top-notch SEO and responsiveness.",
+    "futurePlan": "Integrating AI-powered property recommendations, interactive 3D map views, and automated client inquiry workflows."
+  },
+  {
+    "id": "2",
+    "title": "Shred Nations",
+    "name": "Shred Nations",
+    "description": "Shred Nations is a secure document management and destruction platform that connects individuals and businesses with reliable shredding and information-destruction services across the United States. The platform provides a wide range of solutions including mobile and offsite document shredding, paper shredding, document scanning, document storage, hard drive destruction, electronics recycling, and product destruction.\n\nThe website is designed around a service-driven user experience, allowing visitors to quickly explore available services, find locations, identify the right solution through an interactive Shredding Helper, and request a free quote through a streamlined lead-generation workflow. The platform combines content, location-based discovery, service information, and conversion-focused forms to support both customers and business partners.",
+    "live": "https://www.shrednations.com/",
+    "github": "",
+    "stacks": [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "REST APIs",
+      "Redis",
+      "Cloudinary",
+      "Firebase",
+      "Google Maps API",
+      "Vercel"
+    ],
+    "images": [
+      "https://i.ibb.co.com/FbfCwxMR/image.png"
+    ],
+    "category": "Web Development",
+    "features": [
+      {
+        "title": "Service Marketplace & Discovery",
+        "points": [
+          "Service Discovery & Location Directory",
+          "Interactive Service Finder & Quote System",
+          "Lead Generation Forms & Partner Portal",
+          "Search & Location-Based Filtering",
+          "SEO-Optimized & Conversion-Focused UX"
+        ]
+      }
+    ],
+    "challenges": "Optimizing multi-step quote lead forms and location search to achieve high conversion rates across millions of monthly visits.",
+    "futurePlan": "Introducing instant SMS quote notifications and real-time appointment booking integrations."
+  },
+  {
+    "id": "3",
+    "title": "Doing-Stand",
+    "name": "Doing-Stand",
+    "description": "Doing-Stand is a content-driven marketing platform focused on providing practical insights, guides, and resources related to marketing agencies and the digital marketing industry. The platform features a structured blog architecture with categorized articles, author profiles, contact functionality, and content-focused navigation designed for an information-rich user experience.\n\nThe platform was optimized to handle 100K+ users, with a strong focus on performance, scalability, SEO, and efficient content delivery. I worked on optimizing page loading, frontend rendering, asset delivery, and overall application performance to provide a fast and reliable experience even under high traffic.",
+    "live": "https://www.standingdog.com/",
+    "github": "",
+    "stacks": [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma",
+      "REST APIs",
+      "Redis",
+      "Cloudflare",
+      "SSR / SSG",
+      "Caching"
+    ],
+    "images": [
+      "https://i.ibb.co.com/QFG1nPzG/image.png"
+    ],
+    "category": "Web Development",
+    "features": [
+      {
+        "title": "High-Traffic Performance & Blog Platform",
+        "points": [
+          "Blog & Article Management System",
+          "Category-Based Content & Author Profiles",
+          "100K+ User Traffic Optimization",
+          "SSR/SSG Hybrid Rendering with CDN Caching",
+          "Scalable Architecture & Code Splitting"
+        ]
+      }
+    ],
+    "challenges": "Maintaining instant page loads and zero layout shifts under heavy spike traffic exceeding 100K+ active readers.",
+    "futurePlan": "Building an AI-assisted article recommendation engine and newsletter automation platform."
+  },
+  {
+    "id": "4",
+    "title": "RENG",
+    "name": "RENG",
+    "description": "RENG is a premium e-commerce platform for handcrafted and luxury lighting products, offering a curated collection of ceiling, wall, table, and floor lighting. The platform combines modern editorial design with an immersive shopping experience to showcase artisan craftsmanship, sustainable materials, and high-quality lighting collections.\n\nThe website features structured product discovery, category-based navigation, best-seller and new-introduction sections, detailed product presentation, shopping cart functionality, customer account management, showroom information, and trade program access. The interface was designed with a strong focus on visual storytelling, responsive interactions, performance, and a seamless luxury shopping experience.",
+    "live": "https://rengco.com/",
+    "github": "",
+    "stacks": [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Stripe Integration",
+      "Cloudinary",
+      "Redis"
+    ],
+    "images": [
+      "https://i.ibb.co.com/LXn9VFNw/image.png"
+    ],
+    "category": "Web Development",
+    "features": [
+      {
+        "title": "E-commerce & Luxury Retail",
+        "points": [
+          "Product Catalog & Category-Based Discovery",
+          "Shopping Cart & Customer Account Management",
+          "New Arrivals & Best Seller Showcases",
+          "Trade Program Portal & Showroom Locator",
+          "Stripe Payments & Image Optimization"
+        ]
+      }
+    ],
+    "challenges": "Delivering pixel-perfect luxury aesthetics while maintaining fast initial page loads despite image-heavy product galleries.",
+    "futurePlan": "Adding 3D product view capabilities and AR room visualization for luxury lighting fixtures."
+  },
+  {
+    "id": "5",
+    "title": "Recreation Dallas",
+    "name": "Recreation Dallas",
+    "description": "Recreation Dallas is a creative agency portfolio platform built to showcase innovative campaigns, branding projects, digital experiences, and creative work for leading brands. The website uses a bold, visually-driven presentation to communicate the agency’s personality while allowing visitors to explore a diverse portfolio of client projects and creative case studies.\n\nThe platform features an immersive project showcase with rich visual content, animated media, categorized work, detailed case-study pages, agency information, team profiles, careers, contact functionality, and newsletter subscription. The experience was designed around storytelling, visual hierarchy, smooth navigation, and performance to create an engaging digital presence for a modern creative agency.",
+    "live": "https://recreationdallas.com/",
+    "github": "",
+    "stacks": [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "GSAP",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Cloudinary",
+      "CDN"
+    ],
+    "images": [
+      "https://i.ibb.co.com/CXRswYF/image.png"
+    ],
+    "category": "Web Development",
+    "features": [
+      {
+        "title": "Creative Agency & Digital Experience",
+        "points": [
+          "Interactive Portfolio & Project Showcase",
+          "Detailed Case Study Pages",
+          "Video & Animated GIF Integration",
+          "Team & Agency Pages with Careers Module",
+          "Framer Motion & GSAP Animations"
+        ]
+      }
+    ],
+    "challenges": "Synchronizing complex micro-animations and video assets without compromising mobile frame rates.",
+    "futurePlan": "Integrating interactive 3D WebGL agency showreels."
+  },
+  {
+    "id": "6",
+    "title": "ScoreLivePro – Live Football Scores & Real-Time Updates",
+    "name": "ScoreLivePro – Live Football Scores & Real-Time Updates",
+    "description": "ScoreLivePro is a fast and modern football mobile application built for fans who want instant access to live scores, match updates, and real-time football information. The app focuses on delivering a smooth, responsive, and personalized experience so users never miss important moments from the game.\n\nThe application is designed around real-time data delivery, providing live match scores, timely updates, smart notifications, and an intuitive interface optimized for mobile users. Performance and efficient data handling were prioritized to ensure fast updates and a reliable experience even while handling frequent live-match data changes.",
+    "live": "https://play.google.com/store/apps/details?id=com.scorelivepro.app&hl=en",
+    "github": "",
+    "stacks": [
+      "Flutter",
+      "Dart",
+      "REST APIs",
+      "Firebase Cloud Messaging (FCM)",
+      "Firebase",
+      "State Management",
+      "Real-Time Data Handling",
+      "Push Notifications",
+      "Android"
+    ],
+    "images": [
+      "https://i.ibb.co.com/N6xVNtMz/image.png"
+    ],
+    "category": "Mobile Application",
+    "features": [
+      {
+        "title": "Mobile App & Real-Time Scores",
+        "points": [
+          "Live Football Scores & Real-Time Match Updates",
+          "Push Notifications via Firebase Cloud Messaging",
+          "Match Information & Personalized Experience",
+          "Fast Data Refresh & Efficient API Integration",
+          "Android App published on Google Play Store"
+        ]
+      }
+    ],
+    "challenges": "Managing rapid websocket data updates during high-concurrency match events without draining battery or causing UI lags.",
+    "futurePlan": "Adding live audio commentary and head-to-head match prediction polls."
+  },
+  {
+    "id": "7",
+    "title": "FastChat – Real-Time Messaging Application",
+    "name": "FastChat – Real-Time Messaging Application",
+    "description": "FastChat is a modern mobile messaging application built to provide users with a fast, simple, and responsive communication experience. The application focuses on real-time conversations, smooth message delivery, and an intuitive mobile-first interface.\n\nThe app was developed with a focus on performance, reliable real-time communication, efficient API integration, and a seamless user experience across Android devices.",
+    "live": "https://play.google.com/store/apps/details?id=com.zubaer_official.fastchatapp&hl=en",
+    "github": "",
+    "stacks": [
+      "React Native",
+      "JavaScript",
+      "REST APIs",
+      "Firebase",
+      "Firebase Cloud Messaging (FCM)",
+      "Real-Time Messaging",
+      "Push Notifications",
+      "Android"
+    ],
+    "images": [
+      "https://i.ibb.co.com/MxK8dKmZ/image.png"
+    ],
+    "category": "Mobile Application",
+    "features": [
+      {
+        "title": "Messaging & Conversation Management",
+        "points": [
+          "Real-Time Messaging & Instant Message Delivery",
+          "User Authentication & Conversation Management",
+          "Push Notifications via FCM",
+          "Responsive Mobile UI & Efficient State Management",
+          "Android App published on Google Play Store"
+        ]
+      }
+    ],
+    "challenges": "Ensuring low-latency message delivery and background notification syncing across diverse Android OS versions.",
+    "futurePlan": "Adding end-to-end encryption and voice/video calling support."
+  }
+]

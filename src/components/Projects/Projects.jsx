@@ -1,0 +1,26 @@
+"use client";
+
+import React from "react";
+import ProjectCardsComponent from "./ProjectCardsComponent";
+
+function Projects() {
+  return (
+    <section id="projects" className="py-10 md:py-20 mt-0 bg-[#f5f4f0] dark:bg-gray-900">
+      <div className="container px-4 mx-auto">
+        <div className="mb-6 md:mb-14 text-center">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-gray-900 dark:text-white">
+            My Projects
+          </h2>
+          <p className="max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
+            A showcase of my recent work, personal projects, and collaborations.
+          </p>
+        </div>
+
+        <ProjectCardsComponent />
+        
+      </div>
+    </section>
+  );
+}
+
+export default Projects;

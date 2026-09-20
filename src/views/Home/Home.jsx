@@ -45,15 +45,15 @@ const Home = () => {
         </Suspense>
 
         <Suspense fallback={<SectionSkeleton />}>
-          <Experience />
-        </Suspense>
-
-        <Suspense fallback={<SectionSkeleton />}>
           <Projects />
         </Suspense>
 
         <Suspense fallback={<SectionSkeleton />}>
           <LatestProjectOverView />
+        </Suspense>
+
+        <Suspense fallback={<SectionSkeleton />}>
+          <Experience />
         </Suspense>
 
         <Suspense fallback={<SectionSkeleton />}>

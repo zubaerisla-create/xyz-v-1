@@ -1,8 +1,8 @@
 import Banner from "@/components/Banner/Banner";
 import About from "@/components/About/About";
-import Experience from "@/components/Experience/Experience";
 import Projects from "@/components/Projects/Projects";
 import LatestProjectOverView from "@/components/LatestProjectsOverView/LatestProjectOverView";
+import Experience from "@/components/Experience/Experience";
 import Services from "@/components/Services/Services";
 import ArticlesOverview from "@/components/ArticlesOverview/ArticlesOverview";
 import Education from "@/components/Education/Education";
@@ -14,9 +14,9 @@ export default function HomePage() {
       <div>
         <Banner className="text-gray-700 dark:text-gray-100" />
         <About />
-        <Experience />
         <Projects />
         <LatestProjectOverView />
+        <Experience />
         <Services />
         <ArticlesOverview />
         <Education />

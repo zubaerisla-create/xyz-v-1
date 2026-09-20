@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import { FaArrowLeft, FaExpandAlt, FaTimes, FaChevronLeft, FaChevronRight, FaSearch, FaImages } from 'react-icons/fa';
+import { useSEO } from '../../hooks/useSEO';
 
 import rakib from '../../assets/abdurrakib.png';
 import programminghero from '../../assets/programming1.png';
@@ -139,6 +140,15 @@ const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedIndex, setSelectedIndex] = useState(null);
+
+  useSEO({
+    title: "Gallery & Insights – Abdullah Al Zubaer | Achievements, Robotics & Tech | Hosen Soft",
+    description:
+      "Explore the gallery of Abdullah Al Zubaer – CEO of Hosen Soft & Hosen Academy. Featuring achievements, certifications, robotics projects, workspace moments, and tech milestones.",
+    keywords:
+      "Abdullah Al Zubaer gallery, Abdullah Al Zubaer achievements, Hosen Soft gallery, robotics certificate, programming hero, Abdullah Zubaer insights, Full Stack Developer achievements",
+    canonical: "https://abdullahzubaer.vercel.app/gallery",
+  });
 
   useEffect(() => {
     window.scrollTo(0, 0);

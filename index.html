@@ -3,26 +3,160 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta name="description" content="Abdullah Al Zubaer Mern Stack Developer portfolio website showcasing projects and skills" />
-    <meta name="keywords" content="Abdullah Al Zubaer Mern Stack Developer , portfolio, web development, Abdullah Al Zubaer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+
+    <!-- ══════════════════════════════════════════════════════
+         FAVICON & THEME
+    ══════════════════════════════════════════════════════ -->
+    <link rel="icon" href="./logo.jpg" type="image/jpeg" />
+    <link rel="shortcut icon" href="./logo.jpg" type="image/jpeg" />
+    <link rel="apple-touch-icon" href="./logo.jpg" />
+    <meta name="theme-color" content="#6366f1" />
+    <meta name="msapplication-TileColor" content="#6366f1" />
+
+    <!-- ══════════════════════════════════════════════════════
+         PRIMARY SEO — Title, Description, Keywords
+    ══════════════════════════════════════════════════════ -->
+    <title>Abdullah Al Zubaer | CEO Hosen Soft & Hosen Academy | Full Stack Developer & Blockchain Engineer</title>
+
+    <meta name="description"
+      content="Abdullah Al Zubaer – CEO of Hosen Soft & Hosen Academy, AI-driven Full Stack Developer, Blockchain Engineer, and Full Stack Engineer from Bangladesh. Expert in React, Node.js, Next.js, Web3, and modern web development." />
+
+    <meta name="keywords"
+      content="Abdullah Al Zubaer, Abdullah Al Zubaer CEO, Abdullah Al Zubaer Hosen Soft, Hosen Soft, Hosen Academy, Abdullah Al Zubaer Full Stack Developer, Abdullah Al Zubaer Full Stack Engineer, Abdullah Al Zubaer Blockchain, AI driven full stack development, Full Stack Developer Bangladesh, Full Stack Engineer, Blockchain Developer, Web3 Developer, React Developer, Node.js Developer, Next.js Developer, MERN Stack Developer, Abdullah Zubaer, Zubaer Developer, Abdullah Al Zubaer portfolio, software engineer Bangladesh, AI developer, modern web developer, JavaScript developer, TypeScript developer, Abdullah Al Zubaer software engineer, Hosen Soft CEO, Hosen Academy CEO, Abdullah Al Zubaer profile, Abdullah Al Zubaer projects" />
+
     <meta name="author" content="Abdullah Al Zubaer" />
-    <title>Abdullah Al Zubaer Mern Stack Developer Portfolio</title>
-    
-    <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:title" content="Abdullah Al Zubaer Mern Stack Developer | Portfolio" />
-    <meta property="og:description" content="Professional portfolio showcasing my projects and skills" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://yourwebsite.com" />
-    <meta property="og:image" content="/preview-image.jpg" />
-    
-    <!-- Preconnect to external domains for performance -->
-    <link rel="dns-prefetch" href="https://i.ibb.co">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="revisit-after" content="3 days" />
+    <meta name="language" content="English" />
+    <meta name="rating" content="general" />
+
+    <!-- Geo / Local SEO -->
+    <meta name="geo.region" content="BD" />
+    <meta name="geo.placename" content="Bangladesh" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://abdullahzubaer.vercel.app/" />
+
+    <!-- ══════════════════════════════════════════════════════
+         OPEN GRAPH (Facebook, LinkedIn, WhatsApp)
+    ══════════════════════════════════════════════════════ -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:url"         content="https://abdullahzubaer.vercel.app/" />
+    <meta property="og:site_name"   content="Abdullah Al Zubaer – Full Stack Developer & CEO" />
+    <meta property="og:title"       content="Abdullah Al Zubaer | CEO Hosen Soft & Hosen Academy | Full Stack Developer" />
+    <meta property="og:description" content="CEO of Hosen Soft & Hosen Academy. AI-driven Full Stack Developer, Blockchain Engineer from Bangladesh. Expert in React, Node.js, Web3." />
+    <meta property="og:image"       content="https://abdullahzubaer.vercel.app/myimage.png" />
+    <meta property="og:image:width"  content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt"   content="Abdullah Al Zubaer – Full Stack Developer & CEO" />
+    <meta property="og:locale"      content="en_US" />
+
+    <!-- ══════════════════════════════════════════════════════
+         TWITTER CARD
+    ══════════════════════════════════════════════════════ -->
+    <meta name="twitter:card"        content="summary_large_image" />
+    <meta name="twitter:title"       content="Abdullah Al Zubaer | Full Stack Developer & CEO | Hosen Soft" />
+    <meta name="twitter:description" content="CEO of Hosen Soft & Hosen Academy. AI-driven Full Stack Developer & Blockchain Engineer from Bangladesh." />
+    <meta name="twitter:image"       content="https://abdullahzubaer.vercel.app/myimage.png" />
+    <meta name="twitter:creator"     content="@abdullahzubaer" />
+    <meta name="twitter:site"        content="@abdullahzubaer" />
+
+    <!-- ══════════════════════════════════════════════════════
+         JSON-LD STRUCTURED DATA
+         → Google Knowledge Panel + Rich Results
+    ══════════════════════════════════════════════════════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://abdullahzubaer.vercel.app/#person",
+          "name": "Abdullah Al Zubaer",
+          "alternateName": ["Abdullah Zubaer", "Abdullah Al Zubaer Hosen", "Zubaer Developer"],
+          "url": "https://abdullahzubaer.vercel.app/",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://abdullahzubaer.vercel.app/myimage.png",
+            "width": 400,
+            "height": 400
+          },
+          "description": "Abdullah Al Zubaer is the CEO of Hosen Soft and Hosen Academy, an AI-driven Full Stack Developer, Blockchain Engineer, and Full Stack Engineer from Bangladesh.",
+          "jobTitle": ["CEO", "Full Stack Developer", "Blockchain Engineer", "Full Stack Engineer"],
+          "worksFor": [
+            {
+              "@type": "Organization",
+              "@id": "https://abdullahzubaer.vercel.app/#hosen-soft",
+              "name": "Hosen Soft",
+              "url": "https://abdullahzubaer.vercel.app/"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://abdullahzubaer.vercel.app/#hosen-academy",
+              "name": "Hosen Academy",
+              "url": "https://abdullahzubaer.vercel.app/"
+            }
+          ],
+          "knowsAbout": [
+            "Full Stack Development",
+            "AI-Driven Web Development",
+            "Blockchain Development",
+            "React.js",
+            "Node.js",
+            "Next.js",
+            "Web3",
+            "JavaScript",
+            "TypeScript",
+            "MongoDB",
+            "MERN Stack"
+          ],
+          "nationality": "Bangladeshi",
+          "sameAs": [
+            "https://github.com/abdullahzubaer",
+            "https://linkedin.com/in/abdullahzubaer",
+            "https://facebook.com/abdullahzubaer"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://abdullahzubaer.vercel.app/#website",
+          "url": "https://abdullahzubaer.vercel.app/",
+          "name": "Abdullah Al Zubaer | Full Stack Developer & CEO",
+          "description": "Official portfolio of Abdullah Al Zubaer – CEO of Hosen Soft & Hosen Academy, AI-driven Full Stack Developer and Blockchain Engineer.",
+          "publisher": {
+            "@id": "https://abdullahzubaer.vercel.app/#person"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://abdullahzubaer.vercel.app/?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "ProfilePage",
+          "dateCreated": "2024-01-01",
+          "dateModified": "2025-09-20",
+          "url": "https://abdullahzubaer.vercel.app/",
+          "mainEntity": {
+            "@id": "https://abdullahzubaer.vercel.app/#person"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- ══════════════════════════════════════════════════════
+         PERFORMANCE — Preconnect / DNS prefetch
+    ══════════════════════════════════════════════════════ -->
+    <link rel="dns-prefetch"  href="https://i.ibb.co" />
+    <link rel="dns-prefetch"  href="https://fonts.googleapis.com" />
+    <link rel="preconnect"    href="https://fonts.googleapis.com" />
+    <link rel="preconnect"    href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
     <div id="root">

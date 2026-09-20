@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import Banner from "../../components/Banner/Banner";
+import { useSEO } from "../../hooks/useSEO";
 
 // Lazy load below-the-fold sections for faster initial paint
 const About = lazy(() => import("../../components/About/About"));
@@ -22,6 +23,15 @@ const SectionSkeleton = () => (
 );
 
 const Home = () => {
+  useSEO({
+    title: "Abdullah Al Zubaer | CEO Hosen Soft & Hosen Academy | Full Stack Developer & Blockchain Engineer",
+    description:
+      "Abdullah Al Zubaer – CEO of Hosen Soft & Hosen Academy, AI-driven Full Stack Developer, Blockchain Engineer and Full Stack Engineer from Bangladesh. Expert in React, Node.js, Next.js, Web3.",
+    keywords:
+      "Abdullah Al Zubaer, Abdullah Al Zubaer CEO, Abdullah Al Zubaer Hosen Soft, Hosen Soft, Hosen Academy, Abdullah Al Zubaer Full Stack Developer, AI driven full stack development, Full Stack Engineer, Blockchain Developer, MERN Stack, Web3, React, Node.js",
+    canonical: "https://abdullahzubaer.vercel.app/",
+  });
+
   return (
     <main>
       <div>
@@ -40,7 +50,6 @@ const Home = () => {
         <Suspense fallback={<SectionSkeleton />}>
           <Projects />
         </Suspense>
-
 
         <Suspense fallback={<SectionSkeleton />}>
           <LatestProjectOverView />

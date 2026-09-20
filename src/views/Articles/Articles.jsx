@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import { FaArrowLeft, FaSearch, FaClock, FaCalendarAlt, FaUser, FaBookOpen } from 'react-icons/fa';
 import { articlesData } from '../../data/articlesData';
+import { useSEO } from '../../hooks/useSEO';
 
 const categories = ["All", "Web Dev", "Mobile Dev", "System Architecture", "Robotics"];
 
@@ -9,6 +10,15 @@ const Articles = () => {
   const navigate = useNavigate();
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
+
+  useSEO({
+    title: "Articles & Insights – Abdullah Al Zubaer | Full Stack Developer & CEO Hosen Soft",
+    description:
+      "Read technical articles and insights by Abdullah Al Zubaer – CEO of Hosen Soft & Hosen Academy. Topics include full stack development, AI-driven web development, blockchain, and modern engineering.",
+    keywords:
+      "Abdullah Al Zubaer articles, Abdullah Al Zubaer blog, Full Stack development articles, Blockchain articles, Hosen Soft blog, AI development insights, web development tips, React articles, Node.js articles",
+    canonical: "https://abdullahzubaer.vercel.app/articles",
+  });
 
   useEffect(() => {
     window.scrollTo(0, 0);

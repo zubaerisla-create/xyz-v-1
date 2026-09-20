@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap location — tells Google where to find all pages
+Sitemap: https://abdullahzubaer.vercel.app/sitemap.xml
+
+# Block build artifacts
+Disallow: /dist/
+Disallow: /.git/
+Disallow: /node_modules/

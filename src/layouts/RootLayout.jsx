@@ -165,7 +165,7 @@ const RootLayout = () => {
   return (
     <>
       <ClickSpark {...sparkConfig}>
-        <div className={backgroundClasses}>
+        <div className={`${backgroundClasses} overflow-x-hidden`}>
           {/* Animated gradient overlay */}
           <div className="fixed inset-0 overflow-hidden pointer-events-none">
             <div className={radialGradientClasses} />

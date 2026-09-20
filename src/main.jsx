@@ -13,7 +13,9 @@ AOS.init({
   duration: 600,
   once: true,
   offset: 60,
-  disable: window.innerWidth < 768,
+  // Use a function so it re-evaluates on resize, not just at load time
+  disable: () => window.innerWidth < 768,
+  startEvent: 'DOMContentLoaded',
 });
 // Clean up HTML inline splash screen once React mounts
 const splash = document.getElementById("app-splash");

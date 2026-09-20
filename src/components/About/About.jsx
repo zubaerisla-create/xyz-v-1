@@ -109,7 +109,7 @@ const developer = {
     <div
       data-aos="zoom-in"
       data-aos-duration="1300"
-      className="col-span-2 bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-6 space-y-4 border border-gray-200 dark:border-slate-700"
+      className="col-span-1 lg:col-span-2 bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-6 space-y-4 border border-gray-200 dark:border-slate-700"
     >
       <div className="flex items-center gap-3 mb-2">
         <div className="h-1 w-8 bg-purple-500 rounded-full"></div>
@@ -190,15 +190,15 @@ const developer = {
     <Element name="about" className="element mt-16">
       <Title title="About Me" />
 
-      {/* Main container with proper spacing for large screens */}
-      <div className="my-15 px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-20">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-9xl mx-auto">
+      {/* Main container */}
+      <div className="my-10 px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-20">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           <ProfileCard />
           
           <div
             data-aos="fade-left"
             data-aos-duration="1000"
-            className="lg:col-span-2 grid space-y-6 lg:space-y-0 lg:gap-6 grid-cols-1 lg:grid-cols-3 rounded-2xl"
+            className="lg:col-span-2 grid grid-cols-1 lg:grid-cols-3 gap-6 rounded-2xl"
           >
             <CodeDisplay />
             <MotivationSection />

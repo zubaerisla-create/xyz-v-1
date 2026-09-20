@@ -152,7 +152,7 @@ const Services = () => {
         />
 
         {/* Pricing Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
           {subscriptionPlans.map((plan, index) => {
             const Icon = plan.icon;
             return (
@@ -165,6 +165,7 @@ const Services = () => {
                 glareMaxOpacity={0.08}
                 glareColor="#ffffff"
                 className="rounded-3xl"
+                gyroscope={false}
               >
                 <div
                   data-aos="fade-up"

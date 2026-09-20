@@ -2,9 +2,10 @@ import Banner from "@/components/Banner/Banner";
 import About from "@/components/About/About";
 import Experience from "@/components/Experience/Experience";
 import Projects from "@/components/Projects/Projects";
-import Education from "@/components/Education/Education";
 import LatestProjectOverView from "@/components/LatestProjectsOverView/LatestProjectOverView";
 import Services from "@/components/Services/Services";
+import ArticlesOverview from "@/components/ArticlesOverview/ArticlesOverview";
+import Education from "@/components/Education/Education";
 import Contact from "@/components/Contact/Contact";
 
 export default function HomePage() {
@@ -15,9 +16,10 @@ export default function HomePage() {
         <About />
         <Experience />
         <Projects />
-        <Education />
         <LatestProjectOverView />
         <Services />
+        <ArticlesOverview />
+        <Education />
         <Contact />
       </div>
     </main>

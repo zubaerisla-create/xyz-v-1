@@ -4,7 +4,7 @@ import { FaArrowLeft, FaSearch, FaClock, FaCalendarAlt, FaUser, FaBookOpen } fro
 import { articlesData } from '../../data/articlesData';
 import { useSEO } from '../../hooks/useSEO';
 
-const categories = ["All", "Web Dev", "Mobile Dev", "System Architecture", "Robotics"];
+const categories = ["All", "System Architecture", "AI & Backend", "AI & Engineering", "Web Dev"];
 
 const Articles = () => {
   const navigate = useNavigate();

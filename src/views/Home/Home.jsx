@@ -7,8 +7,9 @@ const About = lazy(() => import("../../components/About/About"));
 const Experience = lazy(() => import("../../components/Experience/Experience"));
 const Projects = lazy(() => import("../../components/Projects/Projects"));
 const LatestProjectOverView = lazy(() => import("../../components/LatestProjectsOverView/LatestProjectOverView"));
-const Education = lazy(() => import("../../components/Education/Education"));
 const Services = lazy(() => import("../../components/Services/Services"));
+const ArticlesOverview = lazy(() => import("../../components/ArticlesOverview/ArticlesOverview"));
+const Education = lazy(() => import("../../components/Education/Education"));
 const Contact = lazy(() => import("../../components/Contact/Contact"));
 
 // Lightweight skeleton shown while lazy sections load
@@ -57,6 +58,10 @@ const Home = () => {
 
         <Suspense fallback={<SectionSkeleton />}>
           <Services />
+        </Suspense>
+
+        <Suspense fallback={<SectionSkeleton />}>
+          <ArticlesOverview />
         </Suspense>
 
         <Suspense fallback={<SectionSkeleton />}>

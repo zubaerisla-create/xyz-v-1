@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate, Link } from "react-router";
+import { useNavigate, useParams, Link } from "react-router";
 import { FaArrowLeft, FaCalendarAlt, FaClock, FaUser, FaTag, FaShareAlt, FaCheck, FaBookOpen } from 'react-icons/fa';
 import { articlesData } from '../../data/articlesData';
 
-const ArticleDetail = ({ id }) => {
+const ArticleDetail = ({ id: propId }) => {
   const navigate = useNavigate();
+  const params = useParams();
+  const id = propId || params?.id;
   const [copied, setCopied] = useState(false);
 
   const article = articlesData.find((a) => a.id === id);

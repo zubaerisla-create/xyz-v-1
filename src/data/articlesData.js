@@ -1,6 +1,6 @@
 export const articlesData = [
   {
-    id: "why-big-tech-companies-love-microservices",
+    id: "art-1",
     title: "Why Do Big Tech Companies Love Microservices?",
     subtitle: "From small restaurants to massive digital platforms: Understanding when to build monoliths and when to scale with microservices.",
     excerpt: "Imagine owning a small restaurant. One person handles everything. But when thousands of customers arrive, responsibilities must be divided. Here is how microservices scale complex software systems.",
@@ -76,7 +76,7 @@ export const articlesData = [
     ]
   },
   {
-    id: "50-crore-followers-notification-system-kafka-distributed-systems",
+    id: "art-2",
     title: "৫০ কোটি Follower-এর Notification সমস্যা: Distributed System ও Kafka-এর কারসাজি",
     subtitle: "রোনালদোর ১টি পোস্টে ৫০ কোটি মানুষের কাছে notification যায় কীভাবে? Single server vs Distributed fan-out pattern.",
     excerpt: "রোনালদো পোস্ট দেওয়ার কয়েক সেকেন্ডের মধ্যে ৫০ কোটি মানুষের ফোনে নোটিফিকেশন কীভাবে পৌঁছায়? কীভাবে massive scale-এ Kafka ও worker servers ব্যবহার করে কাজ ভাগ করে দেওয়া হয়—তার গল্প।",
@@ -155,7 +155,7 @@ export const articlesData = [
     ]
   },
   {
-    id: "production-rag-system-architecture-redis-bullmq-pgvector",
+    id: "art-3",
     title: "RAG নিয়ে কাজ করতে গিয়ে একটা ভুল ধারণা ভাঙল আমার",
     subtitle: "Vector Database আর LLM ছাড়াও একটি reliable production RAG system বানাতে কী কী লাগে?",
     excerpt: "Document → Embedding → Vector Search → LLM → Answer। শুনতে সহজ হলেও আসল চ্যালেঞ্জ চারপাশের অবকাঠামোতে: BullMQ background processing, state tracking, caching, hybrid retrieval এবং source citation.",
@@ -231,7 +231,7 @@ export const articlesData = [
     ]
   },
   {
-    id: "what-if-we-build-our-own-web-browser",
+    id: "art-4",
     title: "What If We Build Our Own Browser?",
     subtitle: "Deconstructing Chromium architecture, MVP requirements, tech stack, and building a browser that gives users a reason to switch.",
     excerpt: "Could a small team build a modern web browser? By leveraging Chromium as an engine and focusing on AI, privacy, and UX differentiators, the impossible becomes achievable.",
@@ -305,7 +305,7 @@ export const articlesData = [
     ]
   },
   {
-    id: "ai-code-blindness-in-modern-developers",
+    id: "art-5",
     title: "Is AI Causing 'Code Blindness' in Modern Developers?",
     subtitle: "Why AI coding speed shouldn't replace architectural thinking, debugging, and root-cause comprehension.",
     excerpt: "AI generates features in minutes, but are we losing the ability to debug and understand system design? How to balance AI productivity with deep programming skills.",
@@ -360,7 +360,7 @@ export const articlesData = [
     ]
   },
   {
-    id: "3-mistakes-developers-make-building-production-web-apps",
+    id: "art-6",
     title: "3 Mistakes Most Developers Make While Building Production-Ready Web Applications",
     subtitle: "Real-world lessons on maintainability, edge cases, and post-deployment realities.",
     excerpt: "Writing code is often the easy part. The real challenge begins in production. Here are 3 critical mistakes I made and what they taught me about building software.",

@@ -41,9 +41,6 @@ const Home = () => {
           <Projects />
         </Suspense>
 
-        <Suspense fallback={<SectionSkeleton />}>
-          <Education />
-        </Suspense>
 
         <Suspense fallback={<SectionSkeleton />}>
           <LatestProjectOverView />
@@ -51,6 +48,10 @@ const Home = () => {
 
         <Suspense fallback={<SectionSkeleton />}>
           <Services />
+        </Suspense>
+
+        <Suspense fallback={<SectionSkeleton />}>
+          <Education />
         </Suspense>
 
         <Suspense fallback={<SectionSkeleton />}>
